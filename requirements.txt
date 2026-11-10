@@ -1,0 +1,11 @@
+# Verified with these versions; nearby ones should be fine.
+torch>=2.0
+torchvision>=0.15
+scikit-learn>=1.3
+numpy>=1.24,<2.0
+h5py>=3.8
+matplotlib>=3.7
+Pillow>=9.0
+
+# Only needed for demo/app.py
+gradio>=4.0

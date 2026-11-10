@@ -1,0 +1,23 @@
+# Dataset — 1.4 GB, download separately (see README)
+data/*.h5
+
+# Derived caches — regenerate with evaluation/extract_features.py (~17 min)
+data/*.npz
+data/*.npy
+
+# Checkpoints — ~45 MB each, too large for git; see README for how to obtain
+models/*.pth
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Gradio
+.gradio/
+flagged/
+
+# OS
+.DS_Store
